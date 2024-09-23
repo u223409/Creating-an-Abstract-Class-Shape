@@ -1,0 +1,31 @@
+public class Rectangle extends Shape {
+
+   private double length, width;
+
+   public Rectangle(double length, double width) {
+      this.length = length;
+      this.width = width;
+   }
+
+   @Override
+   public double area() {
+      return (length * width);
+   }
+   @Override
+   public double perimeter() {
+         return ((length * 2) + (width * 2));
+   }
+      //Implement a "toString" method that prints out the area and perimeter.
+         @Override
+    public String toString() {
+         String resultVal;
+
+            resultVal = (Rectangle.perimeter, Rectangle.area);
+   }
+
+		@Override
+		double radius() {
+			// TODO Auto-generated method stub
+			return 0;
+		}
+}
