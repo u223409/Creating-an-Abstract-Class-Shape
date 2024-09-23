@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+
+public class ShapeArray {
+	// TODO Auto-generated constructor stub
+		 public static void main(String[] args) {
+		      ArrayList<Shape> shapesList = new ArrayList<Shape>();
+
+		      Circle circle = new Circle(new Radius());
+		      shapesList.add(circle);
+		 
+		      Rectangle rectangle = new Rectangle(new length(25), new width(45));
+		      shapesList.add(rectangle);
+		 
+		      Triangle triangle = new Triangle(new side1(25), new side2(30), new side3(15))
+		      shapesList.add(triangle);
+		       
+		         System.out.println("Circle area and perimeter = " + Circle.resultVal.toString());
+		         System.out.println("Rectangle area and perimeter = " + Rectangle.resultVal.toString());
+		         System.out.println("Triangle area and perimeter = " + Triangle.resultVal.toString());
+		         }
+		      }
+		 
